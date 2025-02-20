@@ -2,6 +2,8 @@ import Image from "next/image";
 import Bg from "../public/images/Background.png";
 import Hero from "../public/images/hero.png";
 import Container1 from "./components/Container1";
+import Link from "next/link";
+import { Instagram } from "lucide-react";
 
 export default function Home() {
   return (
@@ -40,9 +42,44 @@ export default function Home() {
           </div>
         </Container1>
       </section>
-      <section className="bg-[#f5f5f5] h-[1000px]">
-        
+      <section className=" border-y-2 border-white bg-[#EAECC6]  pt-10">
+        <nav className="w-full flex justify-center ">
+          <ul className="rounded-md">
+            <li>
+              <Link href={"/"}>
+                <Instagram />
+              </Link>
+            </li>
+          </ul>
+        </nav>
+        <Container1 className="flex flex-col md:flex-row justify-center gap-y-10 md:gap-x-20">
+          {/* <div className="flex-1">
+            <h1 className="text-4xl md:text-5xl font-bold text-accentv">
+              About Me
+            </h1>
+            <p className="mt-5 text-lg font-medium text-[#000000]">
+              I am a front-end developer who loves making websites look cool and
+              work smoothly! I have a passion for creating beautiful and
+              functional websites that are easy to use. I am always looking for
+              new challenges and opportunities to learn and grow as a developer.
+            </p>
+          </div>
+          <div className="flex-1">
+            <h1 className="text-4xl md:text-5xl font-bold text-accentv">
+              My Skills
+            </h1>
+            <p className="mt-5 text-lg font-medium text-[#000000]">
+              I have experience with HTML, CSS, JavaScript, React, and Next.js. I
+              am proficient in using Git and GitHub for version control and
+              collaboration. I am also familiar with Figma and Adobe XD for
+              design and prototyping. I am always looking to expand my skill set
+              and learn new technologies.
+            </p>
+          </div> */}
+        </Container1>
       </section>
     </>
   );
 }
+
+// color pallete #FCF7F8 #A31621 #EAECC6
