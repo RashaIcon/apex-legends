@@ -1,0 +1,11 @@
+.clip_path {
+  fill: #000;
+  /* Example property */
+  stroke: #fff;
+  /* Example property */
+  stroke-width: 1px;
+  /* Example property */
+  transform: skew(-20deg); /* This creates the parallelogram effect */
+  width: 200px; /* Adjust width as needed */
+  height: 100px; /* Adjust height as needed */
+}
