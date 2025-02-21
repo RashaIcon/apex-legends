@@ -20,6 +20,7 @@ export default {
         pira: ["Pirata One", "serif"],
         harry: ["Bigelow Rules", "serif"],
         raj: ["Rajdhani", "serif"],
+        bil: ["Hanken Grotesk", "serif"],
       },
       backgroundImage: {
         homeBanner: "url('../public/images/Background.png')",

@@ -76,14 +76,14 @@ const Navbar = () => {
 
               </li>
               <li className="transition-all duration-300 hover:text-[#ff2221]">
-                <Link href="/aboutme">
+                <Link href="/about">
                   About Me
                 </Link>
 
               </li>
               <li className="transition-all duration-300 hover:text-[#ff2221]">
                 <Link href="/">
-                  Testimonials
+                  Contact Me
                 </Link>
 
               </li>
@@ -137,7 +137,7 @@ const Navbar = () => {
               <Link href="/aboutme">About Me</Link>
             </li>
             <li className="transition-all ulslide px-6 py-3 duration-300 hover:text-[#ff2221] border-b-2 border-[#ff2221]">
-              <Link href="/">Testimonials</Link>
+              <Link href="/">Contact Me</Link>
             </li>
           </ul>
         </div>
