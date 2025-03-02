@@ -3,9 +3,7 @@
 import Image from "next/image";
 import Bg from "../public/images/Background.png";
 import Hero from "../public/images/hero.png";
-import Ben1 from "../public/images/bentogrid/beno1.png";
-import Ben2 from "../public/images/bentogrid/ben2.png";
-import Ben3 from "../public/images/bentogrid/ben3.png";
+
 import Container1 from "./components/Container1";
 import Link from "next/link";
 import { FaLinkedin, FaYoutube } from "react-icons/fa6";
@@ -152,7 +150,7 @@ export default function Home() {
                     Architecting Innovation
                   </p>
                   <Link
-                    href={"/aboutme"}
+                    href={"/about"}
                     className="md:pl-10 md:pr-5 pl-5 py-1 text-[20px] mt-5 md:mt-0 pr-2 flex items-center md:gap-x-3 transition-all md:hover:translate-x-2 hover:-translate-y-1 md:hover:translate-y-0 duration-300 hover:bg-[#FCF7F8] text-[#A31621] md:text-3xl font-pira md:ml-80 rounded-full md:py-3 bg-[#EAECC6] text-right"
                   >
                     About Me <ChevronRight className="size-7" />
