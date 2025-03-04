@@ -55,7 +55,7 @@ const page = () => {
         </Container1>
       </section>
 
-      <section className=" border-y-2 border-white bg-[#A31621] py-10">
+      <section className=" border-t-2 border-white bg-[#A31621] py-10">
         <Container1 className="gap-y-10 mt-10 md:mt-40">
           <div>
             <h1 className="text-5xl md:text-7xl font-pira font-semibold text-[#FCF7F8] ">
@@ -612,7 +612,7 @@ const page = () => {
               <VerticalTime />
             </div>
             <div className="mt-20 md:mt-40 ">
-              <h1 className="text-5xl text-right  mb-10 md:mb-20 md:text-7xl text-left md:text-center font-pira font-semibold text-[#FCF7F8] ">
+              <h1 className="text-5xl text-right  mb-10 md:mb-20 md:text-7xl  md:text-center font-pira font-semibold text-[#FCF7F8] ">
                 Beyond Coding
               </h1>
               <Card />

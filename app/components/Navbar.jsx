@@ -22,7 +22,7 @@ const Navbar = () => {
 
   return (
     <nav className=" absolute top-0 w-full z-50">
-      <div className="container_cust   md:w-[1674px]    md:justify-center  relative md:mx-auto">
+      <div className="container_cust hidden lg:block   md:w-[1674px]    md:justify-center  relative md:mx-auto">
         <div className="bg_nav hidden md:flex absolute -z-10  it w-[200px]  md:w-auto ">
           <div className="left_para absolute md:block hidden">
             <div className="parallelogram_2 absolute -left-5 z-20 bg-white"></div>
@@ -92,7 +92,7 @@ const Navbar = () => {
 
       {/* responsive */}
 
-      <Container1 className={`menu_mobile md:hidden flex  flex-col !px-0    `}>
+      <Container1 className={`menu_mobile lg:hidden flex  flex-col !px-0    `}>
         <div
           className={`flex-1 flex px-6 py-5 pb-3 items-center justify-between  ${
             isOpen ? "bg-[#FCF7F8]" : "bg-transparent"

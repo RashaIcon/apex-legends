@@ -57,7 +57,7 @@ export default function Home() {
           </div>
         </Container1>
       </section>
-      <section className="border-y-2 border-white bg-[#A31621] py-10">
+      <section className="border-t-2 border-white bg-[#A31621] py-10">
         <nav className="w-full flex justify-center">
           <ul className="rounded-[40px] border-2 transition-all duration-300 hover:bg-[#FCF7F8] border-[#FCF7F8] flex flex-row gap-x-1 px-1 py-[2px]">
             <li className="rounded-[50%] transition-all hover:-translate-y-2 border border-transparent hover:border-[#FCF7F8] duration-300 hover:scale-125 hover:bg-[#A31621] group hover:text-[#FCF7F8] bg-[#FCF7F8] p-2">
