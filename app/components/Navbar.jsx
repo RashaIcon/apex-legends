@@ -98,13 +98,13 @@ const Navbar = () => {
             isOpen ? "bg-[#FCF7F8]" : "bg-transparent"
           } `}
         >
-          <h1
+          <Link href="/"
             className={`font-pira  text-4xl transition-all duration-500  ${
               isOpen ? " text-[#ff2221]" : "text-[#FCF7F8]"
             }`}
           >
             RASHA
-          </h1>
+          </Link>
           <div
             className={`transition-all duration-500 p-1 rounded-md ${
               isOpen ? "bg-[#FCF7F8] " : "bg-[#ff2221]"
