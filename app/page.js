@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Bg from "../public/images/Background.png";
-import Hero from "../public/images/hero.png";
+import Hero from "../public/images/Hero.png";
 
 import Container1 from "./components/Container1";
 import Link from "next/link";

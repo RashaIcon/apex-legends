@@ -7,11 +7,10 @@ import upland from "../../public/images/projects/upland.png";
 import nissan from "../../public/images/projects/nissan.png";
 import medical from "../../public/images/projects/medical.png";
 import rest from "../../public/images/projects/rest.png";
-import agenc from "../../public/images/projects/agenc.png";
+import agenc from "../../public/images/projects/Agenc.png";
 import indo from "../../public/images/projects/3.png";
 import Image from "next/image";
 import PojectsShow from "../components/PojectsShow";
-import { Dot } from "lucide-react";
 import ProjectShow2 from "../components/ProjectShow2";
 
 const page = () => {
