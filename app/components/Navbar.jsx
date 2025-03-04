@@ -98,7 +98,8 @@ const Navbar = () => {
             isOpen ? "bg-[#FCF7F8]" : "bg-transparent"
           } `}
         >
-          <Link href="/"
+          <Link
+            href="/"
             className={`font-pira  text-4xl transition-all duration-500  ${
               isOpen ? " text-[#ff2221]" : "text-[#FCF7F8]"
             }`}
@@ -125,18 +126,30 @@ const Navbar = () => {
           }`}
         >
           <ul className="flex flex-col   text-[#ff2221] font-ox  font-semibold">
-            <li className="transition-all ulslide px-6 py-3 duration-300 hover:text-[#ff2221] border-b-2 border-[#ff2221]">
-              <Link href="/">Home</Link>
-            </li>
-            <li className="transition-all ulslide px-6 py-3 duration-300 hover:text-[#ff2221] border-b-2 border-[#ff2221]">
-              <Link href="/projects">My Projects</Link>
-            </li>
-            <li className="transition-all ulslide px-6 py-3 duration-300 hover:text-[#ff2221] border-b-2 border-[#ff2221]">
-              <Link href="/about">About Me</Link>
-            </li>
-            <li className="transition-all ulslide px-6 py-3 duration-300 hover:text-[#ff2221] border-b-2 border-[#ff2221]">
-              <Link href="/contact">Contact Me</Link>
-            </li>
+            <Link
+              href={"/"}
+              className="transition-all ulslide px-6 py-3 duration-300 hover:text-[#ff2221] border-b-2 border-[#ff2221]"
+            >
+              Home
+            </Link>
+            <Link
+              href={"/projects"}
+              className="transition-all ulslide px-6 py-3 duration-300 hover:text-[#ff2221] border-b-2 border-[#ff2221]"
+            >
+              My Projects
+            </Link>
+            <Link
+              href={"/about"}
+              className="transition-all ulslide px-6 py-3 duration-300 hover:text-[#ff2221] border-b-2 border-[#ff2221]"
+            >
+              About Me
+            </Link>
+            <Link
+              href={"/contact"}
+              className="transition-all ulslide px-6 py-3 duration-300 hover:text-[#ff2221] border-b-2 border-[#ff2221]"
+            >
+              Contact Me
+            </Link>
           </ul>
         </div>
       </Container1>
