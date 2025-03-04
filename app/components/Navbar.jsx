@@ -97,7 +97,7 @@ const Navbar = () => {
       <Container1
         className={`${
           isScrolled ? "glass" : "bg-transparent"
-        } menu_mobile lg:hidden flex flex-col !px-0`}
+        } menu_mobile transition-all ease-in-out duration-200 lg:hidden flex flex-col !px-0`}
       >
         <div
           className={`flex-1 flex px-6 py-5 pb-3 items-center justify-between  ${
