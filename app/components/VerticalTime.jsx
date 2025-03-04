@@ -12,10 +12,10 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import { School2Icon, WorkflowIcon } from "lucide-react";
 import Image from "next/image";
-import pict from "../../public/images/vertical/bnmpc.png";
-import cit from "../../public/images/vertical/cit.webp";
-import resolve from "../../public/images/vertical/resolve.png";
-import ppl from "../../public/images/vertical/ppl.png";
+import pict from "/images/vertical/bnmpc.png";
+import cit from "/images/vertical/cit.webp";
+import resolve from "/images/vertical/resolve.png";
+import ppl from "/images/vertical/ppl.png";
 const VerticalTime = () => {
   let workIconStyles = { background: "#06D6A0" };
   let schoolIconStyles = { background: "#f9c74f" };
@@ -134,10 +134,10 @@ const VerticalTime = () => {
             Purple Tutor
           </h5>
           <p id="description" className=" font-bil">
-            I began my Java programming journey at Purple Tutor with the
-            goal of building a strong foundation in software development.
-            Throughout the course, I covered various essential concepts step by
-            step, gradually improving my coding skills.
+            I began my Java programming journey at Purple Tutor with the goal of
+            building a strong foundation in software development. Throughout the
+            course, I covered various essential concepts step by step, gradually
+            improving my coding skills.
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>

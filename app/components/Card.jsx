@@ -1,11 +1,10 @@
-import React from 'react'
-import Iso from "../../public/images/bentogrid/iso.png";
-import Image from 'next/image';
-import anime from "../../public/images/bentogrid/anime.png";
-import cinema from "../../public/images/bentogrid/cinema.png";
-import zizu from "../../public/images/bentogrid/zizu.png";
-import good from "../../public/images/bentogrid/good.png";
-
+import React from "react";
+import Iso from "/images/bentogrid/iso.png";
+import Image from "next/image";
+import anime from "/images/bentogrid/anime.png";
+import cinema from "/images/bentogrid/cinema.png";
+import zizu from "/images/bentogrid/zizu.png";
+import good from "/images/bentogrid/good.png";
 
 const Card = () => {
   return (
@@ -117,6 +116,6 @@ const Card = () => {
       </div>
     </>
   );
-}
+};
 // color pallete #FCF7F8 #A31621 #EAECC6
-export default Card
+export default Card;

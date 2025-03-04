@@ -1,5 +1,3 @@
-
-
 let timelineElements = [
   {
     id: 1,
@@ -10,7 +8,7 @@ let timelineElements = [
 
     buttonText: "View Frontend Projects",
     date: "August 2016 - present",
-    icon: "../../public/images/vertical/bnmpc.png",
+    icon: "/images/vertical/bnmpc.png",
   },
   {
     id: 2,

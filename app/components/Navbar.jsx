@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import  Union  from "../../public/images/Union.png";
+import Union from "/images/Union.png";
 import { Logs, Menu, X } from "lucide-react";
 import Image from "next/image";
 import Button from "./Button";
