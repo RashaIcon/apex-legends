@@ -1,14 +1,14 @@
 "use client";
 import React from "react";
 import Container1 from "../components/Container1";
-import Banner from "/images/projects/banner.jpg";
-import orebi from "/images/projects/1.png";
-import upland from "/images/projects/upland.png";
-import nissan from "/images/projects/nissan.png";
-import medical from "/images/projects/medical.png";
-import rest from "/images/projects/rest.png";
-import agenc from "/images/projects/agenc.png";
-import indo from "/images/projects/3.png";
+import Banner from "../../public/images/projects/banner.jpg";
+import orebi from "../../public/images/projects/1.png";
+import upland from "../../public/images/projects/upland.png";
+import nissan from "../../public/images/projects/nissan.png";
+import medical from "../../public/images/projects/medical.png";
+import rest from "../../public/images/projects/rest.png";
+import agenc from "../../public/images/projects/agenc.png";
+import indo from "../../public/images/projects/3.png";
 import Image from "next/image";
 import PojectsShow from "../components/PojectsShow";
 import { Dot } from "lucide-react";
@@ -42,9 +42,7 @@ const page = () => {
       </section>
       <section className="bg-[#A31621] border-y-2 border-y-[#FCF7F8]">
         <Container1
-          className={
-            "my-10 md:my-36 flex flex-col gap-y-10 md:gap-y-20 !max-w-[1400px]"
-          }
+          className={"my-10 md:my-36 flex flex-col gap-y-10 md:gap-y-20 !max-w-[1400px]"}
         >
           <PojectsShow src={orebi} title={"Orebi"} madeby={"React & Redux"}>
             <div>
