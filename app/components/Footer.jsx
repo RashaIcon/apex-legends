@@ -11,7 +11,7 @@ const Footer = () => {
         }
       >
         <div className="grid  grid-cols-2 grid-rows-2 md:grid-rows-1  md:grid-cols-4 gap-x-10 gap-y-2 md:gap-4 text-[#FCF7F8]">
-          <div className="4 font-pira text-6xl md:text-7xl lg:text-9xl flex flex-col md:justify-center items-center gap-4">
+          <div className="4 dow font-pira text-6xl md:text-7xl lg:text-9xl flex flex-col md:justify-center items-center gap-4">
             <Link href={"/"}>RASHA</Link>
           </div>
 
@@ -30,7 +30,7 @@ const Footer = () => {
                 <Link href="/contact">Contact</Link>
               </li>
               <li className="transition-all ease-in-out hover:text-[#EAECC6] duration-300">
-                <Link href="/project">My projects</Link>
+                <Link href="/projects">My projects</Link>
               </li>
             </ul>
           </div>
@@ -40,19 +40,38 @@ const Footer = () => {
             </h1>
             <ul className="flex font-ox  flex-col gap-1 md:gap-2 md:text-xl">
               <li className="transition-all ease-in-out hover:text-[#EAECC6] duration-300">
-                <Link href="/project">Facebook</Link>
+                <Link
+                  target="_blank"
+                  href={"https://www.facebook.com/nakibul.alam.sardar"}
+                >
+                  Facebook
+                </Link>
               </li>
               <li className="transition-all ease-in-out hover:text-[#EAECC6] duration-300">
-                <Link href="/project">Instagram</Link>
+                <Link
+                  href={"https://www.instagram.com/sardar_rasha/"}
+                  target="_blank"
+                >
+                  Instagram
+                </Link>
               </li>
               <li className="transition-all ease-in-out hover:text-[#EAECC6] duration-300">
-                <Link href="/project">LinkedIn</Link>
+                <Link
+                  target="_blank"
+                  href={
+                    "https://www.linkedin.com/in/sm-nakibul-alam-rasha-mern-stack-developer-a3262b352"
+                  }
+                >
+                  LinkedIn
+                </Link>
               </li>
               <li className="transition-all ease-in-out hover:text-[#EAECC6] duration-300">
-                <Link href="/project">Github</Link>
-              </li>
-              <li className="transition-all ease-in-out hover:text-[#EAECC6] duration-300">
-                <Link href="/project">Discord</Link>
+                <Link
+                  href={"https://discord.com/users/742335672257609790"}
+                  target="_blank"
+                >
+                  Discord
+                </Link>
               </li>
             </ul>
           </div>

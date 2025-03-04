@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import  Union  from "../../public/images/Union.png";
+import Union from "../../public/images/Union.png";
 import { Logs, Menu, X } from "lucide-react";
 import Image from "next/image";
 import Button from "./Button";
@@ -22,14 +22,14 @@ const Navbar = () => {
 
   return (
     <nav className=" absolute top-0 w-full z-50">
-      <div className="container_cust hidden lg:block   md:w-[1674px]    md:justify-center  relative md:mx-auto">
+      <div className="container_cust hidden lg:block   md:max-w-[1474px]    md:justify-center  relative md:mx-auto">
         <div className="bg_nav hidden md:flex absolute -z-10  it w-[200px]  md:w-auto ">
           <div className="left_para absolute md:block hidden">
             <div className="parallelogram_2 absolute -left-5 z-20 bg-white"></div>
             <div className="parallelogram_1 absolute -left-3 mt-[18px] z-20 bg-white"></div>
           </div>
 
-          <div className="main_nav w-[1655px] "></div>
+          <div className="main_nav w-[1450px] "></div>
           <div className="right_para absolute top-0 right-0 ">
             <div className="parallelogram_3 absolute mt-[18px] z-20 bg-white"></div>
             <div className="parallelogram_4 absolute  z-20 bg-white"></div>

@@ -31,7 +31,7 @@ export default function Home() {
           alt="bg"
           layout="fill"
         />
-        <Container1 className="flex md:gap-x-80 justify-center items-center h-full flex-col sm:flex-row">
+        <Container1 className="flex md:gap-x-80  justify-center  md:h-[1000px] flex-col sm:flex-row">
           <div className="left md:flex-1  mt-24  gap-x-3 flex md:gap-x-4 md:w-[861px] text-white font-bold items-center">
             <div className="flex hero flex-col items-center">
               <div className="md:w-7 md:h-7 w-4 h-4 rounded-full bg-[#ff2222]"></div>
@@ -50,8 +50,8 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="div md:flex-1 mt-auto  flex justify-end md:items-end md:mt-24">
-            <div className="hero her right md:w-[750px] sm:w-[280px] w-[350px] text-white font-bold">
+          <div className="div md:flex-1 mt-auto  flex justify-end items-end md:mt-24">
+            <div className="hero her right md:w-[770px] sm:w-[280px] w-[350px] text-white font-bold">
               <Image src={Hero} alt="hero" width={0} height={0} />
             </div>
           </div>
@@ -167,7 +167,7 @@ export default function Home() {
                   My Projects
                 </div>
                 <Link
-                  href={"/myprojects"}
+                  href={"/projects"}
                   className="group projs border-y border-y-[#EAECC6] flex items-center justify-between flex-row gap-y-10 md:gap-y-0 md:gap-x-10 text-[#FCF7F8] py-7 md:py-12 mt-10 md:mt-20"
                 >
                   <div className="left  ">
@@ -183,7 +183,7 @@ export default function Home() {
                   </div>
                 </Link>
                 <Link
-                  href={"/myprojects"}
+                  href={"/projects"}
                   className="group projs border-b border-b-[#EAECC6] flex items-center justify-between flex-row gap-y-10 md:gap-y-0 md:gap-x-10 text-[#FCF7F8] py-7 md:py-12 "
                 >
                   <div className="left  ">
@@ -199,7 +199,7 @@ export default function Home() {
                   </div>
                 </Link>
                 <Link
-                  href={"/myprojects"}
+                  href={"/projects"}
                   className="group projs border-b border-b-[#EAECC6] flex items-center justify-between flex-row gap-y-10 md:gap-y-0 md:gap-x-10 text-[#FCF7F8] py-7 md:py-12 "
                 >
                   <div className="left  ">
@@ -216,7 +216,7 @@ export default function Home() {
                 </Link>
 
                 <Link
-                  href={"/aboutme"}
+                  href={"/projects"}
                   className="md:pl-10 md:pr-5 pl-5 py-1 text-[20px] hover:-translate-y-1 mt-7 md:mt-16 pr-2 flex justify-center items-center md:gap-x-3 transition-all duration-300 hover:bg-[#FCF7F8] text-[#A31621] md:text-3xl font-pira  rounded-full md:py-3 bg-[#EAECC6] "
                 >
                   See More Projects <ChevronRight className="size-7" />

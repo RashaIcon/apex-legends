@@ -39,9 +39,11 @@ const page = () => {
           </div>
         </Container1>
       </section>
-      <section className="bg-[#A31621] border-y-2 border-y-[#FCF7F8]">
+      <section className="bg-[#A31621] border-y-2 border-t-[#FCF7F8] border-y-[#fcf7f800]">
         <Container1
-          className={"my-10 md:my-36 flex flex-col gap-y-10 md:gap-y-20 !max-w-[1400px]"}
+          className={
+            "my-10 md:my-36 flex flex-col gap-y-10 md:gap-y-20 !max-w-[1400px]"
+          }
         >
           <PojectsShow src={orebi} title={"Orebi"} madeby={"React & Redux"}>
             <div>

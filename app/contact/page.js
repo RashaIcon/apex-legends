@@ -2,17 +2,23 @@
 import React, { useState } from "react";
 import Container1 from "../components/Container1";
 import { ArrowBigRight, ArrowRight, BarChart2Icon, Equal } from "lucide-react";
-import  emailjs  from "@emailjs/browser";
+import emailjs from "@emailjs/browser";
 
 const page = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(form);
-    
+
     emailjs.send(
       "service_o7uak72",
       "template_kei538v",
-      { from_name: form.name, to_name: "Rasha", email : form.email, subject: form.subject, message: form.message },
+      {
+        from_name: form.name,
+        to_name: "Rasha",
+        email: form.email,
+        subject: form.subject,
+        message: form.message,
+      },
 
       "m2yl7Q6yBSgWHp4D3"
     );
@@ -124,7 +130,7 @@ const page = () => {
             </div>
           </div>
           <div className="flex justify-center items-center mt-10 md:mt-20 ">
-            <button className="bg-[#A31621] transition-all ease-in-out duration-300 border-2 border-[#FCF7F8] hover:text-[#A31621] hover:bg-[#FCF7F8] py-1 md:py-3 rounded-full font-semibold  font-ox text-xl md:text-2xl text-[#FCF7F8] px-4 md:px-14 ">
+            <button className="bg-[#EAECC6] transition-all ease-in-out duration-300 border-2 border-[#EAECC6] hover:text-[#A31621] hover:bg-[#FCF7F8] py-1 md:py-3 rounded-full font-semibold  font-ox text-xl md:text-2xl text-[#A31621] px-4 md:px-14 ">
               Submit
             </button>
           </div>
