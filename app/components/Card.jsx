@@ -1,18 +1,17 @@
-import React from 'react'
+import React from "react";
 import Iso from "../../public/images/bentogrid/iso.png";
-import Image from 'next/image';
+import Image from "next/image";
 import anime from "../../public/images/bentogrid/anime.png";
 import cinema from "../../public/images/bentogrid/cinema.png";
 import zizu from "../../public/images/bentogrid/zizu.png";
 import good from "../../public/images/bentogrid/good.png";
 
-
 const Card = () => {
   return (
     <>
       <div className="flex h-screen w-full flex-col   items-center justify-center rounded-lg  ">
-        <div className="grid h-full w-full grid-cols-2 md:grid-cols-3 grid-rows-6 gap-4">
-          <div className=" col-span-2  md:p-5 row-span-2   md:row-span-2 rounded-xl bg-[#FCF7F8] overflow-hidden ">
+        <div className="grid h-full w-full grid-cols-2 lg:grid-cols-3 grid-rows-6 gap-4">
+          <div className=" col-span-2  md:p-5 row-span-2    rounded-xl bg-[#FCF7F8] overflow-hidden ">
             <div className="flex  ">
               <Image
                 src={Iso}
@@ -22,7 +21,7 @@ const Card = () => {
                 alt="asd"
               />
               <div className="text-left">
-                <h1 className="font-pira text-[#A31621] text-4xl mt-10 md:mt-6  md:text-6xl">
+                <h1 className="font-pira text-[#A31621] text-5xl mt-10 md:mt-6  md:text-6xl">
                   Competitive Gamer
                 </h1>
                 <p className="text-[#A31621] hidden lg:block  w-[90%] mt-5 font-ox text-lg">
@@ -77,13 +76,13 @@ const Card = () => {
               </div>
             </div>
           </div>
-          <div className="row-span-2 md:row-span-3 rounded-lg md:rounded-xl bg-[#FCF7F8]">
+          <div className="row-span-2 md:row-span-12 lg:row-span-3 rounded-lg md:rounded-xl bg-[#FCF7F8]">
             <div className="flex items-center  flex-col mt-7  ">
               <Image
                 src={cinema}
                 width={0}
                 height={0}
-                className="upin2 w-[350px] object-contain"
+                className="upin2 w-[250px]  lg:w-[350px] object-contain"
                 alt="ada"
               />
               <div className="text-center flex items-center justify-center flex-col mt-2">
@@ -97,7 +96,7 @@ const Card = () => {
               </div>
             </div>
           </div>
-          <div className="row-span-2 md:row-span-2 rounded-lg md:rounded-xl   bg-[#FCF7F8]">
+          <div className="row-span-2 md:row-span-12 lg:row-span-2 rounded-lg md:rounded-xl   bg-[#FCF7F8]">
             <div className="flex flex-col justify-center mt-5">
               <Image
                 src={good}
@@ -117,6 +116,6 @@ const Card = () => {
       </div>
     </>
   );
-}
+};
 // color pallete #FCF7F8 #A31621 #EAECC6
-export default Card
+export default Card;

@@ -70,7 +70,7 @@ const page = () => {
               </span>
             </p>
           </div>
-          <div className="flex mt-5 md:mt-10 justify-between flex-col md:flex-row gap-y-10 gap-x-10 h-auto  md:h-[300px]   ">
+          <div className="flex mt-5 md:mt-10 justify-between flex-col lg:flex-row gap-y-10 gap-x-10 h-auto  md:h-[300px]   ">
             <div className="flex flex-1  md:flex-row   gap-x-5 md:gap-x-10">
               <Tilt className=" bg-[#FCF7F8]  shado rounded-3xl p-5 flex flex-col items-center justify-center gap-y-5">
                 <Image
@@ -128,13 +128,13 @@ const page = () => {
               </Tilt>
             </div>
           </div>
-          <div className="mt-10 md:mt-48 text-right  ">
+          <div className="mt-10  lg:mt-48  md:mt-96 text-right  ">
             <h1 className="text-5xl md:text-7xl font-pira font-semibold text-[#FCF7F8] mt-20">
               My Tech Stack
             </h1>
             <p className="text-[#FCF7F8] text-xs  md:text-2xl mt-5 font-ox">
               My expertise spans a diverse range of technologies, enabling me to
-              deliver <br className="hidden md:block" /> comprehensive and
+              deliver <br className="hidden lg:block" /> comprehensive and
               cutting-edge solutions across various platforms.
             </p>
             <div className="bg-[#FCF7F8] shado rounded-3xl   mt-10 md:mt-20">
@@ -611,7 +611,7 @@ const page = () => {
               </h1>
               <VerticalTime />
             </div>
-            <div className="mt-20 md:mt-40 ">
+            <div className="mt-20 md:mt-40 block sm:hidden md:block ">
               <h1 className="text-5xl text-right  mb-10 md:mb-20 md:text-7xl  md:text-center font-pira font-semibold text-[#FCF7F8] ">
                 Beyond Coding
               </h1>

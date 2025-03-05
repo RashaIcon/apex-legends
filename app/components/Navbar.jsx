@@ -106,7 +106,7 @@ const Navbar = () => {
         >
           <Link
             href="/"
-            className={`font-pira text-4xl transition-all duration-500 ${
+            className={`font-pira text-4xl md:text-6xl transition-all duration-500 ${
               isOpen ? "text-[#ff2221]" : "text-[#FCF7F8]"
             }`}
           >
@@ -119,9 +119,9 @@ const Navbar = () => {
             onClick={() => setIsOpen(!isOpen)}
           >
             {isOpen ? (
-              <X className="size-7 text-[#ff2221]" />
+              <X className="size-7 md:size-11 text-[#ff2221]" />
             ) : (
-              <Menu className="size-7 text-[#FCF7F8]" />
+              <Menu className="size-7 md:size-11 text-[#FCF7F8]" />
             )}
           </div>
         </div>
@@ -131,28 +131,28 @@ const Navbar = () => {
             isOpen ? "block border-t-2 border-[#ff2221]" : "hidden"
           }`}
         >
-          <ul className="flex flex-col text-[#ff2221] font-ox font-semibold">
+          <ul className="flex flex-col md:text-2xl text-[#ff2221] font-ox font-semibold">
             <Link
               href={"/"}
-              className="transition-all ulslide px-6 py-3 duration-300 hover:text-[#ff2221] border-b-2 border-[#ff2221]"
+              className="transition-all ulslide px-6 md:py-7 py-3 duration-300 hover:text-[#ff2221] border-b-2 border-[#ff2221]"
             >
               Home
             </Link>
             <Link
               href={"/projects"}
-              className="transition-all ulslide px-6 py-3 duration-300 hover:text-[#ff2221] border-b-2 border-[#ff2221]"
+              className="transition-all ulslide px-6 py-3 md:py-7 duration-300 hover:text-[#ff2221] border-b-2 border-[#ff2221]"
             >
               My Projects
             </Link>
             <Link
               href={"/about"}
-              className="transition-all ulslide px-6 py-3 duration-300 hover:text-[#ff2221] border-b-2 border-[#ff2221]"
+              className="transition-all ulslide px-6 py-3 md:py-7 duration-300 hover:text-[#ff2221] border-b-2 border-[#ff2221]"
             >
               About Me
             </Link>
             <Link
               href={"/contact"}
-              className="transition-all ulslide px-6 py-3 duration-300 hover:text-[#ff2221] border-b-2 border-[#ff2221]"
+              className="transition-all ulslide px-6 py-3 md:py-7 duration-300 hover:text-[#ff2221] border-b-2 border-[#ff2221]"
             >
               Contact Me
             </Link>

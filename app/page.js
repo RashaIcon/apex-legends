@@ -31,27 +31,27 @@ export default function Home() {
           alt="bg"
           layout="fill"
         />
-        <Container1 className="flex md:gap-x-80  justify-center  md:h-[1000px] flex-col sm:flex-row">
-          <div className="left md:flex-1  mt-24  gap-x-3 flex md:gap-x-4 md:w-[861px] text-white font-bold items-center">
+        <Container1 className="flex md:gap-x-80 lg:flex-nowrap md:flex-wrap justify-center md:h-[1000px]  lg:h-[1000px] flex-col md:flex-row">
+          <div className="left md:flex-1 lg:mt-0 md:mt-40    mt-24  gap-x-3 flex lg:gap-x-4 lg:w-[861px] text-white font-bold items-center">
             <div className="flex hero flex-col items-center">
               <div className="md:w-7 md:h-7 w-4 h-4 rounded-full bg-[#ff2222]"></div>
-              <div className="w-1 md:h-96 h-60 bg_grad violet-gradient bg-[#ff2222]"></div>
+              <div className="w-1 lg:h-96 md:h-72 h-60 bg_grad violet-gradient bg-[#ff2222]"></div>
             </div>
             <div className="2 hero  md:text-left">
-              <h1 className="font-raj md:text-[60px] sm:text-[40px] text-4xl font-semibold text-accentv text-[#ffffff]">
+              <h1 className="font-raj lg:text-[60px] sm:text-[40px] text-4xl font-semibold text-accentv text-[#ffffff]">
                 I'M
               </h1>
-              <h1 className="font-pira text-[110px] tracking-wider md:tracking-normal md:text-[200px] leading-none text-[#ffffff]">
+              <h1 className="font-pira text-[110px] tracking-wider md:tracking-normal md:text-[150px] lg:text-[200px] leading-none text-[#ffffff]">
                 RASHA
               </h1>
-              <p className="md:w-[400px] w-[270px] md:text-2xl md:font-bold font-medium mt-3 leading-[20px] text-[#ffffff]">
+              <p className="md:w-[400px] w-[270px] lg:text-2xl md:text-xl md:font-bold font-medium mt-3 leading-[20px] text-[#ffffff]">
                 Front-end dev who loves making websites look cool and work
                 smoothly!
               </p>
             </div>
           </div>
-          <div className="div md:flex-1 mt-auto  flex justify-end items-end md:mt-24">
-            <div className="hero her right md:w-[770px] sm:w-[280px] w-[350px] text-white font-bold">
+          <div className="div md:flex-1 mt-auto  flex justify-end items-end lg:mt-24">
+            <div className="hero her right md:w-[500px] lg:w-[770px] sm:w-[280px] w-[350px] text-white font-bold">
               <Image src={Hero} alt="hero" width={0} height={0} />
             </div>
           </div>
